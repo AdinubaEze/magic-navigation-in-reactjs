@@ -36,7 +36,7 @@ const Navigation = () => {
            {
             tabs.map((tab,index)=>(
               <li 
-                className={`list ${active === index ? 'active':''}`} 
+                className={`list-item ${active === index ? 'active':''}`} 
                 key={index}
                 onClick={()=>setActive(index)}
                 >
