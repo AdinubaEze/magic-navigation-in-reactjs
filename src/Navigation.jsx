@@ -31,7 +31,7 @@ const tabs = [
 const Navigation = () => {
     const [active,setActive] = useState(2);
   return (
-    <div className='navigation'>
+    <div className='navigation-container'>
         <ul>
            {
             tabs.map((tab,index)=>(
